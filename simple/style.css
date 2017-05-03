@@ -1,0 +1,135 @@
+/*
+Theme Name: Simple
+Author: Charles French
+Author URI: http://aboutcharlesfrench.com
+Description: The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: twentythirteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+body{
+    font-size: 15px;
+    color: #333;
+    background: #f4f4f4;
+    margin:0;
+    padding:0;
+    line-height: 1.7em;
+}
+
+a{
+    color:#333;
+}
+
+header{
+    background:#393939;
+    color:#fff;
+    padding:20px 10px;
+}
+
+header h1{
+    color:#fff;
+    margin:0;
+    padding:0;
+    padding-bottom: 10px;
+}
+
+.container{
+    width:1020px;
+    margin:0 auto;
+    overflow:auto;
+}
+
+.clr{
+    clear: both;
+}
+.main{
+    margin:15px 0;
+    float:left;
+    width:68%;
+}
+
+.sidebar{
+    float:right;
+    width:28%
+}
+
+footer{
+    background:#393939;
+    color:#fff;
+    padding:20px 10px; 
+    text-align:center;
+}
+
+article.post{
+    border-bottom: 1px solid #333;
+    overflow: hidden;
+    padding-bottom: 20px;
+    
+}
+
+article.post a.button{
+    display:inline-block;
+    color:#fff;
+    background:#333;
+    padding:10px 5px;
+    margin-bottom:10px;
+    text-decoration: none;
+}
+
+.meta{
+    color:#fff;
+    background:#333;
+    padding:5px;
+}
+
+.post-thumbnail img{
+    width:100%;
+    height:auto;
+}
+
+
+.main-nav{
+    background:#000;
+    color:white;
+    padding:5px;
+}
+
+.main-nav ul{
+    margin:0;
+    padding:0;
+}
+
+.main-nav li{
+    list-style: none;
+    float:left;
+    padding-right: 15px;
+}
+
+.main-nav a{
+    color:white;
+    text-decoration: none;
+}
+
+.side-widget{
+    border:1px solid #ccc;
+    padding:10px;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+.side-widget li{
+    list-style: none;
+    line-height: 2.2em;
+    border-bottom: 1px dotted #ccc;
+}
+
+.side-widget a{
+    text-decoration: none;
+}
